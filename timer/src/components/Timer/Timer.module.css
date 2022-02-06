@@ -1,0 +1,33 @@
+.timer {
+  background: #5c5470;
+  padding: 30px;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 50px;
+  box-shadow: 0px 0px 18px #666666;
+
+}
+
+.btn {
+  background-image: linear-gradient(to bottom, #352F44, #5c5470);
+  border-radius: 15px;
+  text-shadow: 3px 2px 2px #666666;
+  box-shadow: 6px 5px 18px #666666;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom, #4c85a8, #545794);
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
